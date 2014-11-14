@@ -1,0 +1,10 @@
+cd public_html
+mkdir prog2
+cd prog2
+ git clone https://github.com/jaagup/prog214.git
+cd prog214
+Lisasin faili jaagup.txt
+git add jaagup.txt
+git commit -m "jaagup lisas faili"
+git push
+  -- küsis kasutajanime ja parooli ning saatis faili keskserverisse
