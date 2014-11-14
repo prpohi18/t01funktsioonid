@@ -7,12 +7,19 @@ Lisasin faili jaagup.txt
 git add jaagup.txt
 git commit -m "jaagup lisas faili"
 git push
-  -- küsis kasutajanime ja parooli ning saatis faili keskserverisse
+  -- kÃ¼sis kasutajanime ja parooli ning saatis faili keskserverisse
   
-Kui ei taha üles minna, siis enne vaja vahepealsed muudatused alla küsida
+Kui ei taha Ã¼les minna, siis enne vaja vahepealsed muudatused alla kÃ¼sida
 
 git pull
 
 Kui git ei tea te kasutajanime, siis vaja see talle anda
-Edasi ära saatmiseks
+Edasi Ã¤ra saatmiseks
+git push
+
+Ãœheaegsel muutmisel tekib pushi peale merge viga, failis nÃ¤ha, millised read on erinevad.
+Edasi vaja need Ã¤ra panna ning uuesti lisada.
+
+git add jaagup.txt
+git commit -a -m "viga parandatud"
 git push
