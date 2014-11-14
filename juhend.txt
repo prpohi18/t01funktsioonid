@@ -8,3 +8,11 @@ git add jaagup.txt
 git commit -m "jaagup lisas faili"
 git push
   -- küsis kasutajanime ja parooli ning saatis faili keskserverisse
+  
+Kui ei taha üles minna, siis enne vaja vahepealsed muudatused alla küsida
+
+git pull
+
+Kui git ei tea te kasutajanime, siis vaja see talle anda
+Edasi ära saatmiseks
+git push
