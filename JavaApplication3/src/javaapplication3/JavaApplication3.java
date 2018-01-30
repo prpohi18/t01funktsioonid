@@ -15,7 +15,7 @@ public class JavaApplication3 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        //KUKU 2
+        //KUKU 3 ja 2
         //Ja veel kuku
     }
     
