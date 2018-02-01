@@ -9,7 +9,7 @@ package javaapplication2;
  *
  * @author student
  */
-public class JavaApplication2 {
+public class kodutöö1 {
 
     static double pindala(double a, double b){
         return a*b;
