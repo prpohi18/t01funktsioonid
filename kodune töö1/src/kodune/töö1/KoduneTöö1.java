@@ -25,8 +25,8 @@ public class KoduneTöö1 {
     if(arvud[0] == 0){
       throw new RuntimeException("Tegemist ei ole ruutvõrrandiga");  
     } else {
-        x1 = (float) (double) ((-arvud[1]+ sqrt((arvud[1] * arvud[1]) - 4 * arvud[0] * arvud[2]))/ 2 * arvud[0]);
-        x2 = (float) (double) ((-arvud[1]- sqrt((arvud[1] * arvud[1]) - 4 * arvud[0] * arvud[2]))/ 2 * arvud[0]);
+        x1 = (float) ((-arvud[1]+ sqrt((arvud[1] * arvud[1]) - 4 * arvud[0] * arvud[2]))/ (2 * arvud[0]));
+        x2 = (float) ((-arvud[1]- sqrt((arvud[1] * arvud[1]) - 4 * arvud[0] * arvud[2]))/ (2 * arvud[0]));
         vastus[0] = x1;
         vastus[1] = x2;
     }  return vastus; 
@@ -36,8 +36,10 @@ public class KoduneTöö1 {
     public static void main(String[] args) {
         int[] muutujad={ 2, 5, 2 };
         float[] t = väärtused(muutujad);
-        System.out.println("Ruutvõrrandi väärtused on: "+Arrays.toString(t));
+        System.out.println("Ruutvõrrandi väärtused on: "+ t[0] +" ja "+ t[1]);
     }
    
 }
-/* 2       5       2      -0.5     -2 */ 
+/*
+Ruutvõrrandi väärtused on: -0.5 ja -2.0
+*/ 
