@@ -1,0 +1,25 @@
+cd public_html
+mkdir prog2
+cd prog2
+ git clone https://github.com/jaagup/prog214.git
+cd prog214
+Lisasin faili jaagup.txt
+git add jaagup.txt
+git commit -m "jaagup lisas faili"
+git push
+  -- küsis kasutajanime ja parooli ning saatis faili keskserverisse
+  
+Kui ei taha üles minna, siis enne vaja vahepealsed muudatused alla küsida
+
+git pull
+
+Kui git ei tea te kasutajanime, siis vaja see talle anda
+Edasi ära saatmiseks
+git push
+
+Üheaegsel muutmisel tekib pushi peale merge viga, failis näha, millised read on erinevad.
+Edasi vaja need ära panna ning uuesti lisada.
+
+git add jaagup.txt
+git commit -a -m "viga parandatud"
+git push
