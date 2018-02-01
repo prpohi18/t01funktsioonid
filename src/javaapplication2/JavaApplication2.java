@@ -23,3 +23,7 @@ public class JavaApplication2 {
     }
     
 }
+
+/*
+12.0
+*/
