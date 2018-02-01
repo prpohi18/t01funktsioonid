@@ -10,6 +10,10 @@ package javaapplication3;
  * @author zeus
  */
 public class JavaApplication3 {
+    
+    static double pindala(double a, double b){
+       return a*b;
+    }
 
     /**
      * @param args the command line arguments
@@ -17,6 +21,11 @@ public class JavaApplication3 {
     public static void main(String[] args) {
         //KUKU 3 ja 2
         //Ja veel kuku
+        System.out.println(pindala(3,4));
     }
     
 }
+
+/*
+12.0
+*/
