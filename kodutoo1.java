@@ -18,8 +18,6 @@ public class kodutoo1{
 	
 	public static void main(String[] arg){
 		int kell=22;
-		//Kui kell sisestatakse käsurealt,
-		//siis arvestatakse neid väärtusi
 		try{
 			if(arg.length>0){kell=Integer.parseInt(arg[0]);}
 		} catch(Exception e){
