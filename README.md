@@ -1,6 +1,6 @@
 # t01funktsioonid
 
-Kodutööks on igaühel funktsiooni koostamine ning selle töö demonstreerimine näitprogrammi kaudu. 
-Kodutöö esitatakse siinse repositooriumi pull requestina ning tutvustatakse klassis tahvli ees
+Programm võtab argumentidena kolmnurga kolm külge ja kontrollib,
+kas selliste külgedega saab kolmnurka moodustada.
 
-Ideid ja näiteid leiab näidete esimese tunni materjalide alt
+Kontroll: kolmnurga suvalise kahe külje summa peab olema suurem kui kolmanda pikkus
