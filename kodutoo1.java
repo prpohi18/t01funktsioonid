@@ -21,10 +21,9 @@ public class kodutoo1{
 		try{
 			if(arg.length>0){kell=Integer.parseInt(arg[0]);}
 		} catch(Exception e){
-				System.out.println(
-				 "Kasuta kujul java kodutoo1 [kell], nt ");
+				System.out.println("Kasuta kujul java kodutoo1 [kell], nt ");
 				System.out.println("java kodutoo1 17"); 
-				return;            
+				return;
 		}
 		System.out.println(aeg(kell));
 		System.out.println(lounasook(kell));
