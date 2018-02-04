@@ -7,7 +7,7 @@ public static void main(String[] arg) {
 	double kaal = Double.parseDouble(arg[0]);
 	double pikkus = Double.parseDouble(arg[1]);
 	double indeks = kaal/(pikkus*pikkus);
-	System.out.println("---------------------------------");
+	System.out.println("------------------------------------------------------------------------");
 	System.out.println("Sisestatud kaal: "+kaal+"kg\nSisestatud pikkus: "+pikkus+"m");	
 	System.out.println("Teie kehamassi indeks on "+indeks);
 	if(indeks<16){
@@ -18,7 +18,7 @@ public static void main(String[] arg) {
 		}		
 	if(indeks>=19&&indeks<=25){
 		System.out.println("Normaalkaal");
-		System.out.println("-----------------------------");
+		System.out.println("------------------------------------------------------------------------");
 		}		
 	if(indeks>25&&indeks<=30){
 		System.out.println("Ülekaal");
@@ -40,7 +40,7 @@ public static void main(String[] arg) {
 		tulemus=(kaal)/(pikkus*pikkus);
 			if(tulemus<=25){
 				System.out.println("Teie normaalkaal peaks olema maksimaalselt "+kaal+" kilogrammi.");
-				System.out.println("-------------------------------------------------------");
+				System.out.println("------------------------------------------------------------------------");
 				}
 			
 		}
@@ -51,7 +51,7 @@ public static void main(String[] arg) {
 		tulemus=(kaal)/(pikkus*pikkus);
 			if(tulemus>=19){
 				System.out.println("Teie normaalkaal peaks olema vähemalt "+kaal+" kilogrammi.");
-				System.out.println("-------------------------------------------------------");
+				System.out.println("------------------------------------------------------------------------");
 				}
 			
 		}			
