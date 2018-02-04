@@ -7,7 +7,7 @@ public static void main(String[] arg) {
 	double kaal = Double.parseDouble(arg[0]);
 	double pikkus = Double.parseDouble(arg[1]);
 	double indeks = kaal/(pikkus*pikkus);
-	System.out.println("------------------------------------------------------------------------");
+	System.out.println("-----------------------------------------------------");
 	System.out.println("Sisestatud kaal: "+kaal+"kg\nSisestatud pikkus: "+pikkus+"m");	
 	System.out.println("Teie kehamassi indeks on "+Math.round((indeks*100.0)/100.0));
 	if(indeks<16){
@@ -18,7 +18,7 @@ public static void main(String[] arg) {
 		}		
 	if(indeks>=19&&indeks<=25){
 		System.out.println("Normaalkaal");
-		System.out.println("------------------------------------------------------------------------");
+		System.out.println("-----------------------------------------------------");
 		}		
 	if(indeks>25&&indeks<=30){
 		System.out.println("Ülekaal");
@@ -33,25 +33,25 @@ public static void main(String[] arg) {
 		System.out.println("Tervisele ohtlik rasvumine");
 		}	
 
-//Kui on ülekaalus siis kuvab milline peaks olema suurim normaalkaal		
+//Kui on ülekaalus siis kuvab milline peaks olema suurim kaal, et olla normaalkaalus
 	double tulemus = indeks;
 	while(tulemus>25){
 		kaal=kaal-0.1;
 		tulemus=(kaal)/(pikkus*pikkus);
 			if(tulemus<=25){
 				System.out.println("Teie kaal peaks olema maksimaalselt "+Math.round((kaal*100.0)/100.0)+" kilogrammi.");
-				System.out.println("------------------------------------------------------------------------");
+				System.out.println("-----------------------------------------------------");
 				}
 			
 		}
 		
-//Kui on alakaalus siis kuvab milline peaks olema vähim normaalkaal			
+//Kui on alakaalus siis kuvab milline peaks olema vähim kaal, et olla normaalkaalus		
 	while(tulemus<19){
 		kaal=kaal+0.1;
 		tulemus=(kaal)/(pikkus*pikkus);
 			if(tulemus>=19){
 				System.out.println("Teie kaal peaks olema vähemalt "+Math.round((kaal*100.0)/100.0)+" kilogrammi.");
-				System.out.println("------------------------------------------------------------------------");
+				System.out.println("-----------------------------------------------------");
 				}
 			
 		}			
