@@ -11,7 +11,7 @@ public static void main(String[] arg) {
 	double indeks = kaal/(pikkus*pikkus);
 	System.out.println("-----------------------------------------------------");
 	System.out.println("Sisestatud kaal: "+kaal+"kg\nSisestatud pikkus: "+pikkus+"m");	
-	System.out.println("Teie kehamassi indeks on "+Math.round((indeks*100.0)/100.0));
+	System.out.println("Teie kehamassi indeks on "+Math.round(indeks*100.0)/100.0);
 	if(indeks<16){
 		System.out.println("Tervisele ohtlik alakaal");
 		}
@@ -41,7 +41,7 @@ public static void main(String[] arg) {
 		kaal=kaal-0.1;
 		tulemus=(kaal)/(pikkus*pikkus);
 			if(tulemus<=25){
-				System.out.println("Teie kaal peaks olema maksimaalselt "+Math.round((kaal*100.0)/100.0)+" kilogrammi.");
+				System.out.println("Teie kaal peaks olema maksimaalselt "+Math.round(kaal*100.0)/100.0+" kilogrammi.");
 				System.out.println("-----------------------------------------------------");
 				}
 			
@@ -52,7 +52,7 @@ public static void main(String[] arg) {
 		kaal=kaal+0.1;
 		tulemus=(kaal)/(pikkus*pikkus);
 			if(tulemus>=19){
-				System.out.println("Teie kaal peaks olema vähemalt "+Math.round((kaal*100.0)/100.0)+" kilogrammi.");
+				System.out.println("Teie kaal peaks olema vähemalt "+Math.round(kaal*100.0)/100.0+" kilogrammi.");
 				System.out.println("-----------------------------------------------------");
 				}
 			
