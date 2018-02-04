@@ -1,3 +1,5 @@
+// Kert Tamm IF17 TA I rühm
+
 // Programm laseb kasutajal sisestada enda kehakaalu kilogrammides ja pikkuse meetrites
 // ning arvutab välja kehamassiindeksi
 // kehamassiindeks on kaal kilogrammides * pikkuse ruuduga meetrites
