@@ -6,7 +6,6 @@ public class Kodutoo1{
 		return vastus;
 	}
 	public static int arvudeSumma(int[] a){
-		System.out.println(a[0]);
 		int esimeneNumber = a[0]/100;
 		int teineNumber = a[0]%100/10;
 		int kolmasNumber = a[0]%10;
@@ -18,3 +17,10 @@ public class Kodutoo1{
 		System.out.println(arvudeSumma(arvud));
 	}
 }
+
+/*
+[valevale@greeny t01funktsioonid]$ java Kodutoo1 54
+9
+[valevale@greeny t01funktsioonid]$ java Kodutoo1 785
+20
+*/
