@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class java_pro {
+private static final Scanner scanner = new Scanner(System.in);
+
+    public static void main(String[] args) {
+
+
+
+        int MIN_NUM = 6;
+
+        Scanner input = new Scanner(System.in);
+        //nüüd küsin et kasutaja sisetaks nime
+        System.out.print("Sisesta enda nimi: ");
+
+        String telname = input.nextLine();
+        while(!telname.matches("^[a-zA-Z ,]+")){
+          System.out.print("Kirjuta nimi uuesti: ");
+          telname = input.nextLine();
+
+        }
+        System.out.println("Kirjuta enda telefoninumber: ");
+        //input.nextLine()
+        String telnum = input.nextLine();
+        //while loop
+
+        while(!telnum.matches("^[0-9]+") || !(telnum.length() >= MIN_NUM)){
+          // Error handling
+          if (telnum.matches("^[0-9]+")) {
+            System.out.println("\nNumber peab olema võrdne või pikem"+MIN_NUM);
+            System.out.println("Praegune number oli "+telnum.length()+" kohta.");
+          } else {
+            System.out.println("Number peab koosnema numbridest.");
+          }
+          // Retry request for the user
+          System.out.println("Kirjuta number uuesti: ");
+
+          telnum = input.nextLine();
+        }
+        System.out.println("Salvestatud number: "+telnum);
+        System.out.println("Salvestatud nimi: "+telname);
+    }
+}
