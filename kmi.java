@@ -68,3 +68,35 @@ public static void main(String[] arg) {
 // Rasvumine 30.1 - 35
 // Tugev rasvumine 35.1 - 40
 // Tervisele ohtlik rasvumine > 40.1
+
+// [tammkert@greeny t01funktsioonid]$ java kmi 96.65 1.86
+// -----------------------------------------------------
+// Sisestatud kaal: 96.65kg
+// Sisestatud pikkus: 1.86m
+// Teie kehamassi indeks on 27.94
+// Ülekaal
+// Teie kaal peaks olema maksimaalselt 86.45 kilogrammi.
+// -----------------------------------------------------
+// [tammkert@greeny t01funktsioonid]$ java kmi 85 1.86
+// -----------------------------------------------------
+// Sisestatud kaal: 85.0kg
+// Sisestatud pikkus: 1.86m
+// Teie kehamassi indeks on 24.57
+// Normaalkaal
+// -----------------------------------------------------
+// [tammkert@greeny t01funktsioonid]$ java kmi 60 1.86
+// -----------------------------------------------------
+// Sisestatud kaal: 60.0kg
+// Sisestatud pikkus: 1.86m
+// Teie kehamassi indeks on 17.34
+// Alakaal
+// Teie kaal peaks olema vähemalt 65.8 kilogrammi.
+// -----------------------------------------------------
+// [tammkert@greeny t01funktsioonid]$ java kmi 50.59 1.86
+// -----------------------------------------------------
+// Sisestatud kaal: 50.59kg
+// Sisestatud pikkus: 1.86m
+// Teie kehamassi indeks on 14.62
+// Tervisele ohtlik alakaal
+// Teie kaal peaks olema vähemalt 65.79 kilogrammi.
+// -----------------------------------------------------
