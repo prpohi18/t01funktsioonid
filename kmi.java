@@ -1,8 +1,8 @@
 // Kert Tamm IF17 TA I rühm
 
 // Programm laseb kasutajal sisestada enda kehakaalu kilogrammides ja pikkuse meetrites
-// ning arvutab välja kehamassiindeksi
-// kehamassiindeks on kaal kilogrammides * pikkuse ruuduga meetrites
+// ning arvutab välja kehamassiindeksi.
+// Kehamassiindeks on kaal kilogrammides * pikkuse ruuduga meetrites.
 
 public class kmi{
 public static void main(String[] arg) {
@@ -62,9 +62,9 @@ public static void main(String[] arg) {
 }//public class lõpp
 
 // Tervisele ohtlik alakaal	< 16
-// Alakaal	16 - 18.9
-// Normaalkaal	19 - 25
+// Alakaal 16 - 18.9
+// Normaalkaal 19 - 25
 // Ülekaal	25.1 - 30
-// Rasvumine	30.1 - 35
-// Tugev rasvumine	35.1 - 40
+// Rasvumine 30.1 - 35
+// Tugev rasvumine 35.1 - 40
 // Tervisele ohtlik rasvumine > 40.1
