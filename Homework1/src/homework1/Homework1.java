@@ -12,18 +12,31 @@ package homework1;
  * @author Kaur
  */
 public class Homework1 {
-    
-    static double pindala(double a, double b){
-        return a*b;
+   //Programm BTC hinnamuutuse arvutamiseks
+    public static void btcHind (double uusHind){
+        double vanaHind = 13657.2020;
+        if(uusHind>vanaHind){System.out.println("Bitcoini hind on aasta algusest t6usnud "+((uusHind*100/vanaHind)-100)+"% ehk "+(uusHind-vanaHind)+" eurot.");}
+        else if(uusHind<vanaHind){System.out.println("Bitcoini hind on aasta algusest langenud "+(100-(uusHind*100/vanaHind))+"% ehk "+(vanaHind-uusHind)+" eurot.");}
+        else {System.out.println("Bitcoini hind on j22nud aasta algusega samaks ehk "+vanaHind+" eurot.");}
     }
-            
-
+    
+    
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        System.out.println("Pindala on: "+pindala(+3,4)+"cm.");
+        //Sisestan praeguse BTC hinna, et saada teada muutust
+        System.out.println("Arvutame BTC hinnamuutuse alates 01.01.2018.");
+        btcHind(8205.50);        
     }
     
 }
+
+/*
+
+run:
+Arvutame BTC hinnamuutuse alates 01.01.2018.
+Bitcoini hind on aasta algusest langenud 39.91814721639176% ehk 5451.701999999999 eurot.
+BUILD SUCCESSFUL (total time: 0 seconds)
+
+*/
