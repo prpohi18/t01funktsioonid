@@ -22,8 +22,8 @@ public class Fibonacci {
         
         fnull = 0;
         fyks = 1;
-        counter = 0;
-        System.out.print("NB! Programm on täpne 91. kohani. \n");
+        counter = 2;
+        System.out.print("NB! Programm on täpne 93. kohani. \n");
         System.out.print("Mitmenda arvuni soovid jada genereerida?: ");
         n = input.nextLong();
         System.out.println(fnull);
