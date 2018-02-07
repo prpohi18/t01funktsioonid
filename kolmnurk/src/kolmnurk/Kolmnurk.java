@@ -22,11 +22,11 @@ public class Kolmnurk {
         float a, b, c;
         //loeb, mida kasutaja sisestas
  	Scanner scan = new Scanner(System.in);
- 	System.out.print("Sisesta kolmnurga esimene kulg [cm]: ");
+ 	System.out.print("Sisesta kolmnurga esimene külg [cm]: ");
  	a = scan.nextFloat();
- 	System.out.print("Sisesta kolmnurga teine kulg [cm]: ");
+ 	System.out.print("Sisesta kolmnurga teine külg [cm]: ");
  	b = scan.nextFloat();
- 	System.out.print("Sisesta kolmnurga kolmas kulg [cm]: ");
+ 	System.out.print("Sisesta kolmnurga kolmas külg [cm]: ");
  	c = scan.nextFloat();
         
         //rakendab arvutused
@@ -41,3 +41,19 @@ public class Kolmnurk {
         }
     }   
 }
+/*
+1 VERSIOON:
+Sisesta kolmnurga esimene külg [cm]: 6
+Sisesta kolmnurga teine külg [cm]: 9
+Sisesta kolmnurga kolmas külg [cm]: 4
+Kolmnurga ümbermõõt on 19 sentimeetrit.
+Kolmnurga pindala on 10 ruutsentimeetrit.
+BUILD SUCCESSFUL (total time: 10 seconds)
+
+2 VERSIOON:
+Sisesta kolmnurga esimene külg [cm]: 7
+Sisesta kolmnurga teine külg [cm]: 4
+Sisesta kolmnurga kolmas külg [cm]: 2
+Tegemist pole kolmnurgaga või pole lihtsalt võimalik arvutada...
+BUILD SUCCESSFUL (total time: 5 seconds)
+*/
