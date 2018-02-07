@@ -24,7 +24,7 @@ public class Kodutoo {
         System.out.printf("Sinu kehamassiindeks on %f\n", bmi);
         
         System.out.println("Kehamassiindeksi vahemikud");
-        System.out.println("Alakaal < 18.9");
+        System.out.println("Alakaal > 18.9");
         System.out.println("Normaalkaal 19 - 25 ");
         System.out.println("Ülekaal < 25.1");   
     }
@@ -35,6 +35,6 @@ Pikkus(cm): 187
 Kaal(kg): 76
 Sinu kehamassiindeks on 21.733535
 Kehamassiindeksi vahemikud
-Alakaal < 18.9
+Alakaal > 18.9
 Normaalkaal 19 - 25 
 Ülekaal < 25.1*/
