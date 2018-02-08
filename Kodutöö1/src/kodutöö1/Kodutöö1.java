@@ -14,12 +14,21 @@ public class Kodutöö1 {
         return a*b;
     }
     
-    
+    static int square(int a){
+        return a*a;
+    }
+    static double pythagoras(double a, double b){
+        double c = 0;
+        c = Math.sqrt(a*a + b*b);
+        return c;
+    }
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         System.out.println(pindala(6, 4));
+        System.out.println(square(5));
+        System.out.println(pythagoras(2,4));
     }
     
 }
