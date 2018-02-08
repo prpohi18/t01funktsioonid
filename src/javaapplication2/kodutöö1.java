@@ -12,7 +12,7 @@ package javaapplication2;
 public class kodutöö1 {
 
     static double pindala(double a, double b){
-        return a*b;
+        return a+b;
     }
     /**
      * @param args the command line arguments
@@ -25,5 +25,5 @@ public class kodutöö1 {
 }
 
 /*
-12.0
+7.0
 */
