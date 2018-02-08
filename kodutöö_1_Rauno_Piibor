@@ -1,0 +1,37 @@
+
+package kodutöö;
+
+public class Kodutöö {
+
+    public static float miilid(int[] arvud){
+            float miilid = 0;
+            for(int i=0; i<arvud.length; i++){
+                miilid = arvud[i] * 0.621371f;
+
+            }
+            return miilid;
+        }  
+    public static float mere_miilid(int[] arvud){
+            float mere_miilid = 0;
+            for(int i=0; i<arvud.length; i++){
+                mere_miilid = arvud[i] * 0.539957f;
+
+            }
+            return mere_miilid;
+        }  
+        public static void main(String[] args) {
+            int[] pikkused = {60};
+            System.out.println("Miilides on: ");
+            System.out.println(miilid(pikkused));
+            System.out.println("Mere miilides on: ");
+            System.out.println(mere_miilid(pikkused));
+    }
+}   
+
+
+
+
+Miilides on: 
+37.282257
+Mere miilides on: 
+32.39742
