@@ -1,0 +1,63 @@
+package kodutoo;
+
+public class Kodutoo {
+	
+    public static float dollarid(int[] arvud){
+        float dollarid = 0;
+        for(int i=0; i<arvud.length; i++){
+            dollarid = arvud[i] * 1.23368f;
+            
+        }
+        return dollarid;
+    }
+    public static float naelad(int[] arvud){
+        float naelad = 0;
+        for(int i=0; i<arvud.length; i++){
+            naelad = arvud[i] * 0.887163003f;
+            
+        }
+        return naelad;
+    }
+    
+    public static float jeenid(int[] arvud){
+        float jeenid = 0;
+        for(int i=0; i<arvud.length; i++){
+            jeenid = arvud[i] * 134.681223f;
+            
+        }
+        return jeenid;
+    }
+    
+    public static float kanada(int[] arvud){
+        float kanada = 0;
+        for(int i=0; i<arvud.length; i++){
+            kanada = arvud[i] * 1.54600366f;
+            
+        }
+        return kanada;
+    }
+    
+    public static float frank(int[] arvud){
+        float frank = 0;
+        for(int i=0; i<arvud.length; i++){
+            frank = arvud[i] * 1.1604007f;
+            
+        }
+        return frank;
+    }
+    
+    public static void main(String[] args) {
+        int[] pikkused = {40};
+        System.out.println("Dollarites on: ");
+        System.out.println(dollarid(pikkused));
+        System.out.println("Naeltes on: ");
+        System.out.println(naelad(pikkused));
+        System.out.println("Jaapani jeenides on: ");
+        System.out.println(jeenid(pikkused));
+        System.out.println("Kanada dollarites on: ");
+        System.out.println(kanada(pikkused));
+        System.out.println("Šveitsi frankides on: ");
+        System.out.println(frank(pikkused));
+    }
+}
+
