@@ -14,11 +14,12 @@ class triangle
     boolean existence() // треугольник существует только тогда, когда любые из двух его сторон больше третьей
     {
         boolean ex = true;
-        if((a+b)<c || (a+c)<b || (b+c)<a)
+        if((a+b)<c && (a+c)<b && (b+c)<a)
             ex = false;
         return ex;
     }
- 
+
+
     double area() // площадь треугольника
     {
         double p = (a + b + c) / 2;
