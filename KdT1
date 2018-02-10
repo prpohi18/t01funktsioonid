@@ -1,0 +1,62 @@
+class triangle
+{
+    double a;
+    double b;
+    double c;
+ 
+    triangle(double sa, double sb, double sc) // конструктор
+    {
+        a = sa;
+        b = sb;
+        c = sc;
+    }
+ 
+    boolean existence() // треугольник существует только тогда, когда любые из двух его сторон больше третьей
+    {
+        boolean ex = true;
+        if((a+b)<c && (a+c)<b && (b+c)<a)
+            ex = false;
+        return ex;
+    }
+
+
+    double area() // площадь треугольника
+    {
+        double p = (a + b + c) / 2;
+        return Math.sqrt(p*(p-a)*(p-b)*(p-c));
+    }
+ 
+    double median_a() // медиана к стороне a
+    {
+        return 0.5 * Math.sqrt(2*b*b + 2*c*c - a*a);
+    }
+ 
+    double median_b() // медиана к стороне b
+    {
+        return 0.5 * Math.sqrt(2*a*a + 2*c*c - c*c);
+    }
+ 
+    double median_c() // медиана к стороне c
+    {
+        return 0.5 * Math.sqrt(2*a*a + 2*b*b - c*c);
+    }
+}
+ 
+class Test
+{
+    public static void main(String[] args)
+    {
+        triangle tr = new triangle(3, 4, 5);
+ 
+        if(tr.existence() == true)
+        {
+            System.out.println("Площадь треугольника = " + tr.area());
+            System.out.println("Медиана к стороне a = " + tr.median_a());
+            System.out.println("Медиана к стороне b = " + tr.median_b());
+            System.out.println("Медиана к стороне c = " + tr.median_c());
+        }
+ 
+        else
+            System.out.println("Треугольник с такими сторонами не существует");
+    }
+}
