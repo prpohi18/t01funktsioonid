@@ -25,3 +25,9 @@ public class Kodutoo1 {
     }
     
 }
+
+/*
+run:
+Puudub sisend!
+BUILD SUCCESSFUL (total time: 0 seconds)
+*/
