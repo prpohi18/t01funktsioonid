@@ -1,6 +1,5 @@
 # t01funktsioonid
 
-Kodutööks on igaühel funktsiooni koostamine ning selle töö demonstreerimine näitprogrammi kaudu. 
-Kodutöö esitatakse siinse repositooriumi pull requestina ning tutvustatakse klassis tahvli ees
+Caspar Sepp
 
-Ideid ja näiteid leiab näidete esimese tunni materjalide alt
+Sisestad kolmnurga 2 kaatetit, programm leiab hüpotenuusi ning arvutab pindala
