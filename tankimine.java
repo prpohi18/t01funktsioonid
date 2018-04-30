@@ -1,6 +1,6 @@
 public class tankimine{
     public static String paagiSeis(int kütus){
-        if(kütus<30){return "kütust on alla poole paagi";}
+        if(kütus<30){return "kütust on alla poole paagi, palun tangi";}
         return "ei pea tankima";
     }
     
