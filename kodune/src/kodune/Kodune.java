@@ -1,25 +1,33 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package kodune;
-
-/**
- *
- * @author if17
- */
+import java.util.Scanner;
+            /*
+            *  Programm mis arvutab ringi raadiuse ja ümbermõõdu
+            */
 public class Kodune {
-
-    static double pindala(double a, double b){
-        return a*b;
-    }
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-        System.out.println(pindala(3,4));
-    }
+    
+        public static void main(String args[]){
+            
+            //küsib raadiuse
+            Scanner scan = new Scanner(System.in);
+            System.out.print("Sisesta ringi raadius: ");
+            double r = scan.nextFloat();
+            
+            //pindala arvutus
+            double S = Math.PI * (r * r);
+            
+            
+            //ringi ümbermõõdu arvutamine
+            double C = Math.PI * 2 * r;
+            
+            
+            //kotrollib, raadius ei oleks negatiivne
+            if(r<=0){
+                System.out.println("Raadius peab olema suurem kui 0!");
+            } else {
+                System.out.println("Ringi pindala on: " + Math.round(S));
+                System.out.println("Ringi ümbermõõt on: " + Math.round(C));
+            }
+        }
+ 
     
 }
